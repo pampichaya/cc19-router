@@ -1,8 +1,21 @@
-# React + Vite
+## Step 1
+``` bash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+npm create vite@latest
+npm i
+npm run dev
 
-Currently, two official plugins are available:
+```
+## Step 2 push project to github
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+``` bash
+
+git init
+git add .
+git commit -m "init"
+
+git remote add origin https://github.com/pampichaya/cc19-router.git
+git branch -M main
+git push -u origin main
+
+```
